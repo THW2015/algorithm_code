@@ -7,7 +7,7 @@ import com.thw.common.Node;
  * @author 谭皓文
  * @date 2019/7/9 22:27
  */
-public class PirntLinkedUtil {
+public class PrintLinkedUtil {
 
     public static void printLinked (Node head) {
         if(head == null) {
@@ -28,7 +28,7 @@ public class PirntLinkedUtil {
         Node node3 = new Node(3);
         node1.next = node2;
         node2.next = node3;
-        PirntLinkedUtil.printLinked(node1);
+        PrintLinkedUtil.printLinked(node1);
 
     }
 }
