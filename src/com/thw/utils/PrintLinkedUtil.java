@@ -1,5 +1,6 @@
 package com.thw.utils;
 
+import com.thw.common.DoubleNode;
 import com.thw.common.Node;
 
 /**
@@ -21,7 +22,7 @@ public class PrintLinkedUtil {
         System.out.println();
     }
 
-    public static void printDoubleLinked (Node head) {
+    public static void printDoubleLinked (DoubleNode head) {
         if(head == null) {
             throw new RuntimeException("the head is null");
         }
