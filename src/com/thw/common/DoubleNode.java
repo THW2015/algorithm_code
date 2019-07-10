@@ -8,8 +8,8 @@ package com.thw.common;
 public class DoubleNode {
 
     public int value;
-    public Node next;
-    public Node last;
+    public DoubleNode next;
+    public DoubleNode last;
     public DoubleNode(int value) {
         this.value = value;
     }
