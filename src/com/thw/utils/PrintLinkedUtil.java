@@ -21,6 +21,19 @@ public class PrintLinkedUtil {
         System.out.println();
     }
 
+    public static void printDoubleLinked (Node head) {
+        if(head == null) {
+            throw new RuntimeException("the head is null");
+        }
+        while (head.next != null) {
+            System.out.print(head.value + "<-->");
+            head = head.next;
+        }
+        System.out.print(head.value);
+        System.out.println();
+    }
+
+
     //test
     public static void main(String[] args) {
         Node node1 = new Node(1);
